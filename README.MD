@@ -1,7 +1,9 @@
 ## Getting Started
 Before you start, make sure you already have redis-cli and redis-server at your terminal.
+
 In this example, I was using `redis v5.0.4`.
-Ready? Let's start!
+
+Ready ? Let's start!
 
 ## Steps to start redis cluster:
 1. Open six different terminals. (I recommend using split pane by iTerms! :) )
