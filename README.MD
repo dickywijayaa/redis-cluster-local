@@ -44,6 +44,12 @@ PONG
 Well, that's it! Now you have redis cluster in your local environment that can be connecct with your application!
 If you want to know more details about redis cluster, check the official docs [here](https://redis.io/topics/cluster-tutorial). 
 
+## Constraint for Redis Cluster
+Why do I create six nodes for this sample? Because Redis Cluster has these constraints:
+- Redis Cluster requires at least 3 master nodes.
+- This is not possible with 2 nodes and 1 replicas per node.
+- At least 6 nodes are required.
+
 ## Contributor
 <p>
   <a href="https://github.com/dickywijayaa">
